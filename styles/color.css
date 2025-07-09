@@ -7,6 +7,9 @@
   font-variation-settings:
     "wdth" 100;
 }
+.secondary-bg{
+    background-color:#FFF8F3 ;
+}
 .header{
     background-image:url('../images/developer.png');
     background-position: top left;
@@ -60,6 +63,7 @@ nav ul a{
     font-size: 20px;
     padding:15px 20px;
     border:none;
+   
 }
 .heading{
     font-weight:600px;
@@ -80,4 +84,104 @@ nav ul a{
 .banner img{
     width:676px;
     height:576px;
+}
+
+   main section{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-itemes{
+    text-align:center;
+    padding:130px 130px;
+}
+.h2-items{
+    font-weight:bold;
+    font-size:35px;
+    color:#181818;
+}
+.p-items{
+    font-size:18px;
+    color:#757575;
+}
+.about-items{
+    display:flex;
+    justify-content:space-around;
+    text-align:center;
+}
+.item-tittle{
+    
+    font-size:20px;
+    color:#757575;
+}
+.item-description{
+    font-size:20px;
+    font-weight:bold;
+    color:#474747;
+}
+.about-sec{
+    margin:130px 130px;
+}
+.skills-items{
+    display:flex;
+   gap:10px;
+}
+.center{
+    text-align:center;
+}
+.skill{
+    padding:104px 33px 33px 33px;
+      box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+     border-radius:5px;
+}
+.skill:hover{
+    border:2px solid blue;
+}
+.skill-document:hover{
+  border:3px solid blue;  
+}
+.skill-document{
+    font-size: 16px;
+    color:#757575;
+}
+.img-cls:hover{
+    border:3px solid blue;
+}
+.resume{
+    display:flex;
+    gap:15px;
+}
+hr{
+    color:#D1D1D1;
+}
+.res{
+    margin-top:70px;
+}
+.experience-sub-title{
+  font-size:16px;
+  color:#757575;
+}
+.experience-description{
+    font-size:16px;
+  color:#757575;
+}
+.experience-title{
+    font-weight:bold;
+    font-size:26px;
+    color:#474747;
+}
+.resume-column-title{
+     font-weight:bold;
+    font-size:30px;
+    color:#474747;
+}
+.mid{
+    font-weight:bold;
+    font-size:35px;
+    color:#181818;
+}
+.experience:hover{
+    border:2px solid blue;
+}
+.db{
+     margin-top:20px;
 }
