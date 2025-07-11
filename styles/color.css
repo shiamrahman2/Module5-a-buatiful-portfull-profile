@@ -185,3 +185,67 @@ hr{
 .db{
      margin-top:20px;
 }
+.sec-items{
+    display:flex;
+    margin:130px 230px;
+    gap:100px;
+}
+.footer-header{
+    font-weight:bold;
+    font-size:35px;
+    color:#181818;
+}
+.sec-div{
+    width:562px;
+}
+.footer-p{
+    font-size:16px;
+    color:#474747;
+}
+footer{
+    margin-top:130px;
+}
+/* .input-details{
+    height:64px;
+    width:461px;
+    background-color:white;
+    border:none;
+    display:block;
+    padding:10px 20px;
+    border-radius:5px;
+}
+.text-items{
+  width:461px;
+  height:181px; 
+  background-color:white;
+  border:none; 
+  display:block;
+  padding:10px 20px;
+  border-radius:5px;
+}
+.form-items{
+  
+} */
+ footer input[type="text"],  footer input[type="email"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+footer textarea{
+     height: 150px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+footer button{
+    margin-bottom:130px;
+}
